@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Fantast</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="Fantast, Dvorac Fantast, Dundjerski dvorac, Dvorac u blizini Beceja"
+    />
+    <meta
+      name="description"
+      content="Seminarski rad iz predmeta Veb dizajn, dinamicka stranica radenja u tehnologijama html, css, js"
+    />
+    <meta name="author" content="Dragana Repanović SI 7/18" />
+    <link href="css/style1.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/style2.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/style3.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <script src="js/script2.js"></script>
+  </head>
+
+  <body>
+    <div id="header-wrapper">
+      <div id="header" class="container">
+        <div id="logo">
+          <h1>
+            <a href="index.html">Fantast</a>
+          </h1>
+          <p>Bajka u dvorcu Dundjerski</p>
+        </div>
+        <div class="topnav" id="myTopnav">
+          <a href="#header-wrapper" accesskey="1">Početna</a>
+          <a href="#page-2" accesskey="2">Istorija</a>
+          <a href="#three-column" accesskey="3">Fantast</a>
+          <a href="#slike" accesskey="4">Fotografije</a>
+          <a href="#video" accesskey="4">Video</a>
+          <a href="#put" accesskey="5">Mapa</a>
+          <a href="javascript:void(0);" class="icon" onclick="responsiveMenu()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      </div>
+      <div id="banner" class="container">
+        <!--Slide koji na svake 2 sekunde menja sliku-->
+        <div class="slideshow-container">
+          <!--Radjene slike u fotoshopu smanjen size slike-->
+          <div class="slides fade">
+            <img src="headerimages/Fantast.jpg" alt="Fantast slika1" />
+          </div>
+
+          <div class="slides fade">
+            <img src="headerimages/Fantast2.jpg" width="100%" alt="Fantast slika2" />
+          </div>
+
+          <div class="slides fade">
+            <img src="headerimages/Fantast3.jpg" alt="Fantast slika3" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Wrapper - text i slika -->
+    <div id="page-wrapper">
+      <div id="page-1" class="container">
+        <div id="content-1">
+          <div class="title">
+            <h2>Bajka u dvorcu Dunđerski</h2>
+          </div>
+          <p>
+            Malo je ljudi koji maštu mogu da pretvore u stvarnost. Jedan od tih
+            retkih bio je Bogdan Dunđerski, pripadnik najbogatije porodice u
+            Vojvodini s kraja XIX veka i početka XX veka. Na svom imanju, koje
+            se prostiralo na preko 2600 jutara zemlje, sagradio je, u sred
+            ravnice, dvorac iz mašte.
+            <br />
+            Kompleks dvorca se prostire na oko 65ha i obuhvata, pored dvorca, i
+            ergelu, kapelu gde je sahranjen Bogdan Dunđerski, mali kaštel, park
+            sa jezerom. Prenoćište raspolaže sa pet dvokrevetnih soba i dva
+            apartmana u samom dvorcu i u depandansu sa još pet dvokrevetnih
+            soba.
+          </p>
+        </div>
+        <div id="sidebar">
+          <img src="headerimages/fantast4.jpg" alt="Fantast" />
+        </div>
+      </div>
+    </div>
+    <!--Wrapper - sekcije istorija-->
+    <div id="page-wrapper">
+      <div id="page-2" class="container">
+        <div id="content-2">
+          <div class="title">
+            <h2>Istorija</h2>
+          </div>
+          <p>
+            Posed na kome se nalazi prelepi dvorac, pripadao je porodici
+            Dunđerski koja je početkom 19. veka iz Hercegovine došla u Vojvodinu
+            koja je tada bila sastavni deo Austrougarske. Kako je ova porodica
+            važila za najimućniju na ovim prostorima, Bogdanu Dunđerskom,
+            najintrigantnijem pripadniku ove porodice, nisu se sviđale priče da
+            je ostao bez novca pa je sagradio dvorac iz mašte u sred nepregledne
+            Vojvođanske ravnice, onako iz inata. Dvorac je oslikavao svog
+            tvorca, bio je raskošan, bogat i moćan. Čitav kompleks se prostire
+            na 65 hektara, a sastoji od dvorca, kapele, ergele, parka sa jezerom
+            i malog kastela. Priča kaže da je Bogdan kuću sagradio u inat, kako
+            bi pokazao moć i bogatstvo svima onima koji su tvrdili da je
+            bankrotirao. I tako je sagradio dvorac iz snova koji je i dan danas
+            jedinstven u čitavom regionu.Bela, moumentalna zgrada sa četiri kule
+            sa kojih se mogu videti kilometri Panonske ravnice, ostala je da
+            svedoči o Bogdanu Dunđerskom, čoveku čija je porodica sagradila
+            mnoge dvorce ali nijedan tako lep i jedinstven kao Fantast. Njegov
+            vlasnik sahranjen je baš na tom mestu, u kapeli blizu kuće, na
+            njegovom mestu iz snova. Dvorac Fantast nalazi se u centralnoj
+            Vojvodini, 14 kilometara od Bečeja i 60 kilometara od Novog Sada. On
+            je spomenik od velikog kulturnog značaja. Ova predivna zgrada
+            zavšena je 1925., a 1983. je pretvorena u luksuzni hotel. Ovaj
+            kompleks u celini prostire se na 65 ari.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--Slike dvorca nekad i sada -->
+    <div class="wrapper-2">
+      <div id="two-column" class="container">
+        <div id="tbox1">
+          <div class="title">
+            <h2>Dvorac nekad</h2>
+          </div>
+          <img src="headerimages/istorija.jpg" alt="Istorija" />
+        </div>
+        <div id="tbox2">
+          <div class="title">
+            <h2>Dvorac sad</h2>
+          </div>
+          <img src="img/DvoracFantast.jpg" alt="Dvorac fantast" />
+        </div>
+      </div>
+    </div>
+    <!--Tri kolone - nesto više o dvorcu-->
+    <div class="wrapper">
+      <div id="three-column" class="container">
+        <div id="tbox1">
+          <div class="title">
+            <h2>Fantast</h2>
+          </div>
+          <p>
+            Dvorac je sagrađen 1925. godine po ugledu na Francuske dvorce tog
+            vremena. Arhitektura zamka je veoma zanimljiva, na njemu se prepliće
+            barokni, romantični i neoklasični stil. Dvorac čine četiri ugaone
+            kule, dve kružne i dve kupaste kule kao i toranj.U podrumu dvorca je
+            vinski podrum, možete prošetati samim dvorcem i izaći na krovnu
+            terasu sa koje se prostire pogled na nepreglednu vojvođansku
+            ravnicu,ili iznajmiti sobu u samom dvorcu i provesti noć poput
+            nekadašnje vlastele.Dvorac je ogromnim okružen parkom sa bazenom u
+            kome nema vode. Nakon smrti Bogdana Dunđerskog 1943. godine, dvorac
+            je dospeo u nezavidnu poziciju.Iako je Dunđerski zaveštao imanje
+            Matici srpskoj, imovina je tokom komunističkog perioda
+            nacionalizovana i dodeljena kombinatu Pik Bečej.
+          </p>
+        </div>
+        <div id="tbox2">
+          <div class="title">
+            <h2>Kapela</h2>
+          </div>
+          <p>
+            Kapela Svetog Đorđa je građena istovremeno kada i sam dvorac, u
+            neovizantijskom stilu. Bogdan Dunđerski je rešio da je podigne
+            neposredno u blizini dvorca jer je došao do saznanja da se baš na
+            tom mestu nekada davno nalazila crkva.Tako se u dvorištu dvorca
+            nalazi crkva Svetog Đorđa, sazidana kada i dvorac, koju je oslikao
+            čuveni slikar Uroš Predić, Bogdanov prijatelj. Crkva predstavlja
+            grobnu kapelu Bogdana Dunđerskog. Po priči, i sam Uroš Predić
+            trebalo je da bude sahranjen u istoj kapeli, ali su po njegovoj
+            smrti, rođaci promenili plan.
+          </p>
+          <a
+            href="https://www.putoljub.rs/2020/06/dvorac-fantast.html"
+            class="button"
+            target="_blank"
+            >Vise o dvorcu i iskustva</a
+          >
+        </div>
+        <div id="tbox3">
+          <div class="title">
+            <h2>Ergela</h2>
+          </div>
+          <p>
+            Bogdan je bio veliki zaljubljenik u konje, te je polovinu od
+            celokupnog imanja podredio upravo ovim plemenitim životinjama. Nakon
+            oslobođenja konji sa imanja Dunđerskog prodati su Italijanima po
+            klaničnoj ceni, nameštaj i dragocenosti su otuđeni, a u dvorište i
+            dvorac su puštene ovce. Deo poseda zauzima ergela. Ljubiteljima
+            konja biće interesantna ergela sa 80 konja, vlasništvo dvorca.
+            Vlasnik Bogdan Dunđerski nikada se nije ženio i nije imao dece. Bio
+            je boem čitav svoj život, a njegova najveća strast bilo je jahanje.
+            Sagradio je ergelu za trkačke konje koja postoji i danas.Ergela je
+            iznedrila neke od najboljih trkačkih konja u čitavom regionu. U
+            jednom momentu zauzimala je više od polovine čitavog imanja i imala
+            oko 1400 konja.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--Sekcija galerije; dve funkcije JavaScript-a za otvaranje galerija i prikaz slajdova-->
+    <div id="slike">
+      <h1>Fotografije</h1>
+      <br />
+      <div class="row">
+        <div class="column">
+          <img
+            src="img/istorija.jpg"
+            style="width: 100%"
+            onclick="openModal();currentSlide(1)"
+            class="hover-shadow cursor"
+          />
+        </div>
+        <div class="column">
+          <img
+            src="img/bogdan.jpg"
+            style="width: 100%"
+            onclick="openModal();currentSlide(2)"
+            class="hover-shadow cursor"
+          />
+        </div>
+        <div class="column">
+          <img
+            src="img/DvoracFantast.jpg"
+            style="width: 100%"
+            onclick="openModal();currentSlide(3)"
+            class="hover-shadow cursor"
+          />
+        </div>
+        <div class="column">
+          <img
+            src="img/fantast.jpg"
+            style="width: 100%"
+            onclick="openModal();currentSlide(4)"
+            class="hover-shadow cursor"
+          />
+        </div>
+        <div class="column">
+          <img
+            src="img/fantast4.jpg"
+            style="width: 100%"
+            onclick="openModal();currentSlide(5)"
+            class="hover-shadow cursor"
+          />
+        </div>
+        <div class="column">
+          <img
+            src="img/fantast3.jpg"
+            style="width: 100%"
+            onclick="openModal();currentSlide(6)"
+            class="hover-shadow cursor"
+          />
+        </div>
+        <div class="column">
+          <img
+            src="img/fantast1.jpg"
+            style="width: 100%"
+            onclick="openModal();currentSlide(7)"
+            class="hover-shadow cursor"
+          />
+        </div>
+        <div class="column">
+          <img
+            src="img/fantast2.jpg"
+            style="width: 100%"
+            onclick="openModal();currentSlide(8)"
+            class="hover-shadow cursor"
+          />
+        </div>
+        <div class="column">
+          <img
+            src="img/pogled.jpg"
+            style="width: 100%"
+            onclick="openModal();currentSlide(9)"
+            class="hover-shadow cursor"
+          />
+        </div>
+        <div class="column">
+          <img
+            src="img/pogled1.jpg"
+            style="width: 100%"
+            onclick="openModal();currentSlide(10)"
+            class="hover-shadow cursor"
+          />
+        </div>
+        <div class="column">
+          <img
+            src="img/kapelaprilaz.jpg"
+            style="width: 100%"
+            onclick="openModal();currentSlide(11)"
+            class="hover-shadow cursor"
+          />
+        </div>
+        <div class="column">
+          <img
+            src="img/kapela1.jpg"
+            style="width: 100%"
+            onclick="openModal();currentSlide(12)"
+            class="hover-shadow cursor"
+          />
+        </div>
+        <div class="column">
+          <img
+            src="img/ikonostas.jpg"
+            style="width: 100%"
+            onclick="openModal();currentSlide(13)"
+            class="hover-shadow cursor"
+          />
+        </div>
+        <div class="column">
+          <img
+            src="img/bazen.jpg"
+            style="width: 100%"
+            onclick="openModal();currentSlide(14)"
+            class="hover-shadow cursor"
+          />
+        </div>
+        <div class="column">
+          <img
+            src="img/ergelafantast.jpg"
+            style="width: 100%"
+            onclick="openModal();currentSlide(15)"
+            class="hover-shadow cursor"
+          />
+        </div>
+        <div class="column">
+          <img
+            src="img/enterijer1.jpg"
+            style="width: 100%"
+            onclick="openModal();currentSlide(16)"
+            class="hover-shadow cursor"
+          />
+        </div>
+        <div class="column">
+          <img
+            src="img/enterijer2.jpg"
+            style="width: 100%"
+            onclick="openModal();currentSlide(17)"
+            class="hover-shadow cursor"
+          />
+        </div>
+        <div class="column">
+          <img
+            src="img/enterijer3.jpg"
+            style="width: 100%"
+            onclick="openModal();currentSlide(18)"
+            class="hover-shadow cursor"
+          />
+        </div>
+        <div class="column">
+          <img
+            src="img/apartman.jpg"
+            style="width: 100%"
+            onclick="openModal();currentSlide(19)"
+            class="hover-shadow cursor"
+          />
+        </div>
+        <div class="column">
+          <img
+            src="img/prvimaj.jpg"
+            style="width: 100%"
+            onclick="openModal();currentSlide(20)"
+            class="hover-shadow cursor"
+          />
+        </div>
+        <div class="column">
+          <img
+            src="img/vencanja.jpg"
+            style="width: 100%"
+            onclick="openModal();currentSlide(21)"
+            class="hover-shadow cursor"
+          />
+        </div>
+        <div class="column">
+          <img
+            src="img/vencanje.jpg"
+            style="width: 100%"
+            onclick="openModal();currentSlide(22)"
+            class="hover-shadow cursor"
+          />
+        </div>
+      </div>
+
+      <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+          <div class="mySlides">
+            <div class="numbertext">1 / 21</div>
+            <img src="img/istorija.jpg" style="width: 100%" />
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">2 / 21</div>
+            <img src="img/bogdan.jpg" style="width: 100%" />
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">3 / 21</div>
+            <img src="img/DvoracFantast.jpg" style="width: 100%" />
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">4 / 21</div>
+            <img src="img/fantast.jpg" style="width: 100%" />
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">5 / 21</div>
+            <img src="img/fantast4.jpg" style="width: 100%" />
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">6 / 21</div>
+            <img src="img/fantast3.jpg" style="width: 100%" />
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">7 / 21</div>
+            <img src="img/fantast1.jpg" style="width: 100%" />
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">8 / 21</div>
+            <img src="img/fantast2.jpg" style="width: 100%" />
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">9 / 21</div>
+            <img src="img/pogled.jpg" style="width: 100%" />
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">10 / 21</div>
+            <img src="img/pogled1.jpg" style="width: 100%" />
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">11 / 21</div>
+            <img src="img/kapelaprilaz.jpg" style="width: 100%" />
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">12 / 21</div>
+            <img src="img/kapela1.jpg" style="width: 100%" />
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">13 / 21</div>
+            <img src="img/ikonostas.jpg" style="width: 100%" />
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">14 / 21</div>
+            <img src="img/bazen.jpg" style="width: 100%" />
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">15 / 21</div>
+            <img src="img/ergelafantast.jpg" style="width: 100%" />
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">16 / 21</div>
+            <img src="img/enterijer1.jpg" style="width: 100%" />
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">17 / 21</div>
+            <img src="img/enterijer2.jpg" style="width: 100%" />
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">18 / 21</div>
+            <img src="img/enterijer3.jpg" style="width: 100%" />
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">19 / 21</div>
+            <img src="img/apartman.jpg" style="width: 100%" />
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">20 / 21</div>
+            <img src="img/prvimaj.jpg" style="width: 100%" />
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">21 / 21</div>
+            <img src="img/vencanja.jpg" style="width: 100%" />
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">21 / 21</div>
+            <img src="img/vencanje.jpg" style="width: 100%" />
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+          <div class="caption-container">
+            <p id="caption"></p>
+          </div>
+
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="img/istorija.jpg.jpg"
+              style="width: 100%"
+              onclick="currentSlide(1)"
+              alt="Nekadašnji izgled dvorca"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="img/bogdan.jpg"
+              style="width: 100%"
+              onclick="currentSlide(2)"
+              alt="Bogdan Dundjerski"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="img/DvoracFantast.jpg"
+              style="width: 100%"
+              onclick="currentSlide(3)"
+              alt="Dvorac Fantast danas"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="img/fantast.jpg"
+              style="width: 100%"
+              onclick="currentSlide(4)"
+              alt="Dvorac Fantast-kao dvorac iz bajke"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="img/fantast4.jpg"
+              style="width: 100%"
+              onclick="currentSlide(5)"
+              alt="Velelepni izgled dvorca Fantast"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="img/fantast3.jpg"
+              style="width: 100%"
+              onclick="currentSlide(6)"
+              alt="Ulaz u dvorac"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="img/fantast1.jpg"
+              style="width: 100%"
+              onclick="currentSlide(7)"
+              alt="Dvorac Fantast kao dvorac za ponos"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="img/fantast2.jpg"
+              style="width: 100%"
+              onclick="currentSlide(8)"
+              alt="Bajka u dvorcu Fantast"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="img/pogled.jpg"
+              style="width: 100%"
+              onclick="currentSlide(9)"
+              alt="Pogled sa dvorca"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="img/pogled1.jpg"
+              style="width: 100%"
+              onclick="currentSlide(10)"
+              alt="Razgledanje imanja sa vrha dvorca"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="img/kapelaprilaz.jpg"
+              style="width: 100%"
+              onclick="currentSlide(11)"
+              alt="Kapela Sv. Đorđa"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="img/kapela1.jpg"
+              style="width: 100%"
+              onclick="currentSlide(12)"
+              alt="Ulaz u kapelu Sv. Đorđa"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="img/ikonostas.jpg"
+              style="width: 100%"
+              onclick="currentSlide(13)"
+              alt="Ikonostas koji je oslikao Uroš Predić"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="img/bazen.jpg"
+              style="width: 100%"
+              onclick="currentSlide(14)"
+              alt="Bazen ispred dvorca"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="img/ergelafantast.jpg"
+              style="width: 100%"
+              onclick="currentSlide(15)"
+              alt="Ergela"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="img/enterijer1.jpg"
+              style="width: 100%"
+              onclick="currentSlide(16)"
+              alt="Unutrašnjost dvorca"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="img/enterijer2.jpg"
+              style="width: 100%"
+              onclick="currentSlide(17)"
+              alt="Unutrašnjost dvorca"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="img/enterijer3.jpg"
+              style="width: 100%"
+              onclick="currentSlide(18)"
+              alt="Moguće korišćenje sale - za venčanja ili bilo koje druge vrste proslava"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="img/apartman.jpg"
+              style="width: 100%"
+              onclick="currentSlide(19)"
+              alt="Apartmani za noćenje u sklopu Fanstasta"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="img/prvimaj.jpg"
+              style="width: 100%"
+              onclick="currentSlide(20)"
+              alt="Proslava Prvog maja na Fantastu"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="img/vencanja.jpg"
+              style="width: 100%"
+              onclick="currentSlide(21)"
+              alt="Organizovanje venčanja na Fantastu"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="img/vencanje.jpg"
+              style="width: 100%"
+              onclick="currentSlide(22)"
+              alt="Organizovanje venčanja na Fantastu"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Sekcija za video-->
+    <div id="video">
+      <h1>Video</h1>
+      <video controls>
+        <source src="img/dundjerski.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <!--put ID kao putanja do tog mesta - sekcija gde se nalazi dvorac-->
+    <div id="put">
+      <div id="wrapper2">
+        <div class="container">
+          <div class="title">
+            <h2>Gde se nalazimo?</h2>
+          </div>
+          <p>
+            <strong>Dvorac Fantast – Dunđerski</strong> se nalazi na 15
+            kilometara od Bečeja prema Bačkoj Topoli ili 60 kilometara od Novog
+            Sada ili 135 kilometara od Beograda. Sazidao ga je Bogdan Dunđerski,
+            u više faza, a završen je 1925. godine. Toranj i četiri ugaone kule
+            napravljeni su u stilu neogotike, a svečana sala i oba ulaza urađeni
+            u neoklasicističkom stilu. Pored dvorca rađena je i kapela u
+            neovizantijskom stilu posvećena Svetom Đorđu i delom ju je radio
+            beogradski majstor ikonostasa Karbiner. Tri mozaika na portalu i
+            Tajnu večeru je za dve godine naslikao Uroš Predić, Bogorodica je
+            dobila Marin lik po želji Dunđerskog. Po želji Bogdana Dunđerskog
+            jedini naslednik je Matica srpska.
+          </p>
+        </div>
+      </div>
+      <div id="mapa">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d44622.47084581595!2d19.902018!3d45.652741000000006!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xad68fc9c307ce05d!2sCastle%20Fantast!5e0!3m2!1sen!2sus!4v1618236810470!5m2!1sen!2sus"
+          width="1000"
+          height="650"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </div>
+    </div>
+
+    <footer>
+      <div id="copyright">
+        <p>&copy; All rights reserved. | Design by Dragana Repanovic</p>
+      </div>
+    </footer>
+    <script src="../FantastVebDizajn/js/script1.js"></script>
+  </body>
+</html>

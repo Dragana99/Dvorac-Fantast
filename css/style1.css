@@ -1,0 +1,524 @@
+/***********************************************************************************************/
+/* Import za font koi je korišćen                                                              */
+/***********************************************************************************************/
+
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Merienda&display=swap");
+
+/********************************************************/
+/* Opšte                                                 /
+/*******************************************************/
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Merienda", cursive;
+  font-size: 14pt;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+  color: #404040;
+}
+
+p,
+ol,
+ul {
+  margin-top: 0;
+}
+
+ol,
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+p {
+  line-height: 180%;
+}
+
+a {
+  color: #e85d4b;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.container {
+  margin: 0px auto;
+  width: 1200px;
+}
+
+/*********************************************************************************/
+/* Slike                                                                         */
+/*********************************************************************************/
+
+.image {
+  display: inline-block;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.image img {
+  display: block;
+  width: 100%;
+}
+
+.image-full {
+  display: block;
+  width: 100%;
+  margin: 0 0 3em 0;
+}
+
+.image-left {
+  float: left;
+  margin: 0 2em 2em 0;
+}
+
+.image-centered {
+  display: block;
+  margin: 0 0 2em 0;
+}
+
+.image-centered img {
+  margin: 0 auto;
+  width: auto;
+}
+
+/*********************************************************************************/
+/* Button                                                                        */
+/*********************************************************************************/
+
+.button {
+  display: inline-block;
+  margin-top: 2em;
+  padding: 0.8em 2em;
+  background: #e85d4b;
+  line-height: 1.8em;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-size: 1em;
+  color: #fff;
+}
+
+.button:before {
+  display: inline-block;
+  background: #8dcb89;
+  margin-right: 1em;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 20px;
+  text-align: center;
+  color: #272925;
+}
+
+/*********************************************************************************/
+/* Nalovi                                                                        */
+/*********************************************************************************/
+
+.title {
+  margin-bottom: 3em;
+  text-align: center;
+}
+
+.title h2 {
+  font-size: 2.8em;
+}
+
+.title .byline {
+  font-size: 1.1em;
+  color: #6f6f6f;
+}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+#header-wrapper {
+  overflow: hidden;
+  padding: 1em 0em 0em 1em;
+  background: #fff;
+}
+
+#header {
+  position: relative;
+}
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+#logo {
+  font-family: "Indie Flower", cursive;
+}
+
+#logo h1 {
+  display: inline-block;
+  font-size: 3em;
+}
+#logo h1::first-letter {
+  color: rgb(11, 0, 110);
+  font-weight: bold;
+}
+
+#logo a {
+  text-decoration: none;
+  color: #000000;
+}
+
+#logo p {
+  text-decoration: none;
+  color: rgb(11, 0, 110);
+  margin-top: -20px;
+}
+
+#logo span {
+  padding-right: 0.5em;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  color: rgb(11, 0, 110);
+}
+
+#logo span a {
+  color: rgb(11, 0, 110);
+}
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+
+.topnav {
+  position: absolute;
+  right: 0;
+  top: 0px;
+  display: inline-block;
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.topnav a {
+  float: left;
+  color: #000000;
+  padding: 1em 2em 1em 2em;
+
+  text-decoration: none;
+  font-size: 0.9em;
+  font-weight: 600;
+  text-transform: uppercase;
+  outline: 0;
+}
+
+.topnav a:hover {
+  background: #d9b9fc;
+  border-radius: 10px;
+  color: rgb(11, 0, 110);
+}
+
+.topnav a.active {
+  background-color: #a975d3;
+  color: black;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+/*********************************************************************************/
+/* Banner i slideshow  u header-u                                                */
+/*********************************************************************************/
+
+#banner {
+  margin: auto;
+}
+
+.slideshow-container {
+  width: 1200px;
+  height: 800px;
+  position: relative;
+  margin: auto;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/*********************************************************************************/
+/* Wrapper                                                                       */
+/*********************************************************************************/
+
+.wrapper {
+  overflow: hidden;
+  background: #fff;
+}
+
+#wrapper1 {
+  background: #fff;
+}
+
+#wrapper2 {
+  overflow: hidden;
+  background: #f3f3f3;
+  padding: 5em 0em;
+}
+
+#wrapper2 p {
+  text-align: justify;
+}
+
+/*********************************************************************************/
+/* Page                                                                          */
+/*********************************************************************************/
+
+#page-wrapper {
+  overflow: hidden;
+  background: #f3f3f3;
+  padding: 5em 0em;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+#page-1 .title h2 {
+  font-size: 1.6em;
+}
+
+/*********************************************************************************/
+/* Content                                                                       */
+/*********************************************************************************/
+
+#content-1 {
+  float: left;
+  width: 700px;
+  padding-right: 100px;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#content-1 p {
+  text-align: justify;
+}
+
+/*********************************************************************************/
+/* Sidebar - slika pored texta                                                   */
+/*********************************************************************************/
+
+#page-1 #sidebar {
+  float: right;
+  width: 350px;
+}
+#page-1 #sidebar img {
+  width: 100%;
+}
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+#copyright {
+  overflow: hidden;
+  padding-top: 10px;
+  border-top: 1px solid rgba(102, 60, 255, 0.08);
+  text-align: center;
+}
+
+#copyright p {
+  letter-spacing: 1px;
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+/*********************************************************************************/
+/* Tri kolone u jednom jedu                                                      */
+/*********************************************************************************/
+
+#three-column {
+  overflow: hidden;
+  text-align: center;
+  color: #000000;
+  margin-top: 50px;
+}
+
+#three-column h2 {
+  margin: 1em 0em;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+#three-column #tbox1,
+#three-column #tbox2,
+#three-column #tbox3 {
+  float: left;
+  width: 320px;
+  padding: 20px 40px 50px 40px;
+  background: #9726ff;
+  background: radial-gradient(
+    circle,
+    rgba(151, 38, 255, 1) 0%,
+    rgba(224, 166, 246, 1) 50%,
+    rgba(224, 223, 224, 1) 100%
+  );
+}
+
+#three-column #tbox1 .button,
+#three-column #tbox2 .button,
+#three-column #tbox3 .button {
+  background: #a64cfa59;
+  border-radius: 10%;
+  color: #000000;
+}
+
+#three-column #tbox2 {
+  padding-bottom: 55px;
+}
+
+#three-column #tbox2 p {
+  padding-bottom: 157px;
+}
+
+#three-column #tbox3 {
+  padding-bottom: 60px;
+}
+
+#three-column #tbox3 p {
+  padding-bottom: 23px;
+}
+
+#three-column .title {
+  text-align: center;
+}
+
+#three-column .title h2 {
+  font-size: 1.6em;
+  color: #000000;
+  font-weight: 500;
+}
+
+/************************************************************/
+/* Mapa                                                     */
+/************************************************************/
+
+#mapa {
+  margin: auto;
+  width: 50%;
+}
+
+/************************************************************/
+/** Footer                                                  */
+/************************************************************/
+footer {
+  background: #e0a6f6;
+}
+
+/****************************************************************/
+/* Responsive - za uređaje širine manje od 600px(obično 600px)*/
+/***************************************************************/
+
+@media only screen and (max-width: 600px) {
+  #content-1,
+  #content-2 {
+    width: 100%;
+  }
+  #put {
+    width: 100%;
+  }
+
+  #three-column #tbox1,
+  #three-column #tbox2,
+  #three-column #tbox3 {
+    width: 90%;
+    overflow: hidden;
+    text-align: center;
+  }
+  #content-1 {
+    float: left;
+    width: 90%;
+    padding: 0 30px;
+    border-right: 0px;
+  }
+  #page-1 #sidebar {
+    float: left;
+    width: 90%;
+    padding: 0 20px;
+  }
+  #page-2 #content-2 {
+    float: left;
+    width: 90%;
+    padding: 0 30px;
+    border-right: 0px;
+  }
+  #page-2 {
+    float: left;
+    width: 90%;
+    padding: 0 20px;
+  }
+  .slideshow-container {
+    margin-top: 100px;
+    height: 50%;
+    width: 100%;
+  }
+  .slideshow-container img {
+    width: 100%;
+    padding-top: 10px;
+  }
+  #wrapper2 .container {
+    width: 80%;
+    margin: 30px;
+    padding: 30px;
+  }
+  #mapa iframe {
+    width: 90%;
+    height: 100%;
+    margin-bottom: 50px;
+  }
+  .container {
+    margin: 10px;
+    width: 100%;
+  }
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  .topnav.responsive {
+    position: relative;
+    top: 0px;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: -50px;
+  }
+  .topnav.responsive a {
+    float: left;
+    display: block;
+    text-align: left;
+    font-size: 18px;
+  }
+}

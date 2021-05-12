@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Merienda&display=swap");
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  margin: 0px;
+  padding: 0px;
+  font-family: "Merienda", cursive;
+  font-size: 14pt;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+  color: #404040;
+}
+
+/*********************************************************************************/
+/* Content 2                                                                      */
+/*********************************************************************************/
+
+#content-2 {
+  float: left;
+  width: 100%;
+  padding-right: 100px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#content-2 p {
+  text-align: justify;
+}
+
+/*********************************************************************************/
+/* Sidebar - slika                                                               */
+/*********************************************************************************/
+
+#sidebar-2 {
+  float: right;
+  width: 350px;
+}
+#sidebar-2 img {
+  width: 100%;
+}
+
+/*********************************************************************************/
+/* Dve kolone - slike pre i kasnije                                              */
+/*********************************************************************************/
+.wrapper-2 {
+  margin: auto;
+  width: 55%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#two-column {
+  overflow: hidden;
+  text-align: center;
+  color: #fff;
+  border-radius: 20%;
+  background: rgb(221, 219, 220);
+}
+#two-column h2 {
+  text-align: center;
+  padding-bottom: 10px;
+}
+#two-column #tbox1,
+#two-column #tbox2 {
+  float: left;
+  width: 40%;
+  padding: 50px 50px;
+}
+
+.wrapper-2 img {
+  overflow: hidden;
+  width: 100%;
+}
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+#copyright {
+  overflow: hidden;
+  padding-top: 10px;
+  border-top: 1px solid rgba(102, 60, 255, 0.08);
+  text-align: center;
+}
+
+#copyright p {
+  letter-spacing: 1px;
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+/******************************************************/
+/*Responsive - za mobilne uređaje                     */
+/******************************************************/
+@media only screen and (max-width: 700px) {
+  .wrapper-2 {
+    width: 90%;
+  }
+  #two-column {
+    width: 100%;
+  }
+  #two-column #tbox1,
+  #two-column #tbox2 {
+    width: 65%;
+    overflow: hidden;
+    text-align: center;
+  }
+  .wrapper-2 img {
+    overflow: hidden;
+    width: 100%;
+    padding-left: 40px;
+  }
+  #two-column h2 {
+    font-size: 40px;
+  }
+  #content-2 {
+    width: 50%;
+    padding: 20px;
+  }
+}
